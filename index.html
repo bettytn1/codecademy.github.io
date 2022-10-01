@@ -1,9 +1,177 @@
+<!DOCTYPE html>
 <html>
- 
-<body>
-  <h1>Betty T</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
-</body>
- 
+    <head>
+        <title>My Coding Cheat Sheet</title>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">        <link href="index.css" rel="stylesheet" type="text/css">
+        <link href="./resources/css/index.css" rel="stylesheet" type="text/css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="bordercorner_wrap">
+                <div class="bordercorner">
+                    <h1>My Coding Cheat Sheet</h1>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">html</a></li>
+                    <li><a href="css.html">css</a></li>
+                    <li><a href="js.html">js</a></li>
+                </ul>
+            </nav>
+            <section>
+                <h2>HTML Cheat Sheet</h2>
+            </section>
+        </header>
+
+        <!-- HTML Structure-->
+        <section class="container" id="HTML_structure">
+            <div class="container"><h3>HTML Structure</h3></div>
+
+            <!-- the beginning of the body-->
+            <div class="container" id="body">
+                <p>&#8249;body&#8250;</p>
+                <!-- the header section -->
+                <div class="container" id="header">
+                    <p>&#8249;header&#8250;</p>
+                    <div class="container" id="logo">
+                        <p>&#8249;div id=&quot;logo&quot;&#8250; &#8249;div&#8250;</p>
+                    </div>
+                    <div class="container" id="nav">
+                        <p>&#8249;nav&#8250;</p>
+                        <div class="container" id="list">
+                            <p>&#8249;ul&#8250; &#8249;/ul&#8250;</p>
+                        </div>
+                        <p>&#8249;/nav&#8250;</p>
+                    </div>
+                    <p>&#8249;/header&#8250;</p>
+                </div>
+
+                <!-- the main section -->
+                <div class="container" id="main">
+                    <p>&#8249;main&#8250;</p>
+                    <div class="container" id="section">
+                        <p>&#8249;section&#8250;</p>
+                        <div class="container" id="article">
+                            <p>&#8249;article&#8250; &#8249;/article&#8250;</p>
+                        </div>
+                        <p>&#8249;/section&#8250;</p>
+                    </div>
+                    <p>&#8249;/main&#8250;</p>
+                </div>
+
+                <!-- the aside section -->
+                <div class="container" id="aside">
+                    <p>&#8249;aside&#8250; &#8249;/aside&#8250;</p>
+                </div>
+
+                <!-- the footer section -->
+                <div class="container" id="footer">
+                    <p>&#8249;footer&#8250; &#8249;/footer&#8250;</p>
+                </div>
+                <p>&#8249;/body&#8250;</p>
+            </div>
+        </section>
+
+        <!-- HTML Table Structure -->
+        <section class="container" id="HTML_table">
+            <div class="container"><h3>HTML Table Structure</h3></div>
+            <div class="container" id="table">
+                <p>&#8249;table&#8250;</p>
+
+                <!-- the caption section -->
+                <div class="container" id="caption">
+                    <p>&#8249;caption&#8250;  &#8249;/caption&#8250;</p>
+                </div>
+
+                <!-- thead section-->
+                <div class="container" id="thead">
+                    <p>&#8249;thead&#8250;</p>
+                        <div class="container" id="tr1">
+                            <p>&#8249;tr&#8250;</p>
+                            <div class="container" id="th">
+                                <p>&#8249;th&#8250;  &#8249;/th&#8250;</p>
+                            </div>
+                            <p>&#8249;/tr&#8250;</p>
+                        </div>
+                    <p>&#8249;/thead&#8250;</p>
+                </div>
+
+                <!-- tbody section -->
+                <div class="container" id="tbody">
+                    <p>&#8249;tbody&#8250;</p>
+                    <div class="container" id="tr2">
+                        <p>&#8249;tr&#8250;</p>
+                        <div class="container" id="td1">
+                            <p>&#8249;td&#8250;  &#8249;/td&#8250;</p>
+                        </div>
+                        <p>&#8249;/tr&#8250;</p>
+                    </div>
+                    <p>&#8249;tbody&#8250;</p>
+                </div> 
+
+                <!-- tfoot section -->
+                <div class="container" id="tfoot"> 
+                    <p>&#8249;tfoot&#8250;</p>
+                    <div class="container" id="tr3">
+                        <p>&#8249;tr&#8250;</p>
+                        <div class="container" id="td2">
+                            <p>&#8249;td&#8250;  &#8249;/td&#8250;</p>
+                        </div>
+                        <p>&#8249;/tr&#8250;</p>
+                    </div>
+                    <p>&#8249;tfoot&#8250;</p>
+                </div>
+
+
+                <p>&#8249;/table&#8250;</p>
+            </div>
+        </section>
+
+
+        <table>
+            <caption>The <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" target="_blank" title="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input" class="css">input</a> a HTML element is used to create interactive controls for web-based forms in order to accept data from the user</caption>
+            <thead>
+                <tr>
+                    <th>html code</th>
+                    <th>description</th>
+                    <th>example</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&#8249; input type="button" value="click me" &#8250;</td>
+                    <td>a push button with no default behavior displaying the value of the value attribute, empty by default.</td>
+                    <td> <input type="button" value="click me"> </td>
+                </tr>
+                <tr>
+                    <td> &#8249; input type="checkbox" &#8250; </td>
+                    <td>a check box allowing single values to be selected/deselected </td>
+                    <td> <input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td >&#8249; input type="color" &#8250;</td>
+                    <td> a control that opens a color picker when active </td>
+                    <td> <input type="color"></td>
+                </tr>
+                <tr>
+                    <td> &#8249; input type="date" &#8250; </td>
+                    <td> a control for entering a date (year, month, and day, with no time).</td>
+                    <td> <input type="date"></td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+    <footer>
+        <section class="footer">
+            <p>made with &#10084; © 2022 btn</p>
+        </section>
+    </footer>
+
+
+
+
+
 </html>
